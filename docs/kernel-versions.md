@@ -208,6 +208,7 @@ Helper | Kernel version | License | Commit |
 -------|----------------|---------|--------|
 `BPF_FUNC_bind()` | 4.17 |  | [`d74bad4e74ee`](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d74bad4e74ee373787a9ae24197c17b7cdc428d5) |
 `BPF_FUNC_bprm_opts_set()` | 5.11 |  | [`3f6719c7b62f`](https://github.com/torvalds/linux/commit/3f6719c7b62f0327c9091e26d0da10e65668229e)
+`BPF_FUNC_btf_find_by_name_kind()` | 5.14 |  | [`3d78417b60fb`](https://github.com/torvalds/linux/commit/3d78417b60fba249cc555468cb72d96f5cde2964)
 `BPF_FUNC_check_mtu()` | 5.12 |  | [`34b2021cc616`](https://github.com/torvalds/linux/commit/34b2021cc61642d61c3cf943d9e71925b827941b)
 `BPF_FUNC_clone_redirect()` | 4.2 |  | [`3896d655f4d4`](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3896d655f4d491c67d669a15f275a39f713410f8)
 `BPF_FUNC_copy_from_user()` | 5.10 |  | [`07be4c4a3e7a`](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git/commit?id=07be4c4a3e7a0db148e44b16c5190e753d1c8569)
@@ -352,6 +353,8 @@ Helper | Kernel version | License | Commit |
 `BPF_FUNC_store_hdr_opt()` | 5.10 |  | [`0813a841566f`](https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git/commit?id=0813a841566f0962a5551be7749b43c45f0022a0)
 `BPF_FUNC_strtol()` | 5.2 |  | [`d7a4cb9b6705`](https://kernel.googlesource.com/pub/scm/linux/kernel/git/davem/net-next/+/d7a4cb9b6705a89937d12c8158a35a3145dc967a)
 `BPF_FUNC_strtoul()` | 5.2 |  | [`d7a4cb9b6705`](https://kernel.googlesource.com/pub/scm/linux/kernel/git/davem/net-next/+/d7a4cb9b6705a89937d12c8158a35a3145dc967a)
+`BPF_FUNC_sys_bpf()` | 5.14 |  | [`79a7f8bdb159`](https://github.com/torvalds/linux/commit/79a7f8bdb159d9914b58740f3d31d602a6e4aca8)
+`BPF_FUNC_sys_close()` | 5.14 |  | [`3abea089246f`](https://github.com/torvalds/linux/commit/3abea089246f76c1517b054ddb5946f3f1dbd2c0)
 `BPF_FUNC_sysctl_get_current_value()` | 5.2 |  | [`1d11b3016cec`](https://kernel.googlesource.com/pub/scm/linux/kernel/git/davem/net-next/+/1d11b3016cec4ed9770b98e82a61708c8f4926e7)
 `BPF_FUNC_sysctl_get_name()` | 5.2 |  | [`808649fb787d`](https://kernel.googlesource.com/pub/scm/linux/kernel/git/davem/net-next/+/808649fb787d918a48a360a668ee4ee9023f0c11)
 `BPF_FUNC_sysctl_get_new_value()` | 5.2 |  | [`4e63acdff864`](https://kernel.googlesource.com/pub/scm/linux/kernel/git/davem/net-next/+/4e63acdff864654cee0ac5aaeda3913798ee78f6)
